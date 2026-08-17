@@ -1,0 +1,117 @@
+/* Estilos Generales y Reseteo */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #d8ded5; /* Tono verde salvia de fondo */
+    font-family: 'Cinzel', 'Times New Roman', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #3b3b3b;
+}
+
+/* Contenedor tipo móvil */
+.mobile-container {
+    width: 100%;
+    max-width: 420px;
+    min-height: 100vh;
+    background-color: #d8ded5;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+/* Encabezado */
+.profile-header {
+    text-align: center;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.restaurant-logo {
+    width: 65px;
+    height: 65px;
+    stroke: #333;
+}
+
+.brand-title {
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.1;
+    letter-spacing: 2px;
+    color: #2c2c2c;
+    text-align: left;
+}
+
+.brand-subtitle {
+    font-size: 0.75rem;
+    letter-spacing: 1.5px;
+    color: #4a4a4a;
+    max-width: 280px;
+    margin: 0 auto;
+    line-height: 1.4;
+}
+
+/* Navegación de Botones */
+.links-nav {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 30px 0;
+}
+
+.nav-button {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    background-color: #eceee9; /* Color crema claro de los botones */
+    color: #333333;
+    text-align: center;
+    text-decoration: none;
+    font-size: 0.95rem;
+    letter-spacing: 1px;
+    border: 1px solid #d0d5cc;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.nav-button:hover {
+    background-color: #e2e5df;
+}
+
+.nav-button:active {
+    transform: scale(0.98);
+}
+
+/* Pie de página con Redes Sociales */
+.social-footer {
+    display: flex;
+    gap: 25px;
+    margin-bottom: 10px;
+}
+
+.social-icon {
+    color: #333333;
+    font-size: 1.2rem;
+    text-decoration: none;
+    transition: opacity 0.2s;
+}
+
+.social-icon:hover {
+    opacity: 0.7;
+}
