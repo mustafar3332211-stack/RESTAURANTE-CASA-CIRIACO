@@ -1,4 +1,4 @@
-/* Reset básico y configuración general */
+/* Reset general */
 * {
     margin: 0;
     padding: 0;
@@ -6,18 +6,19 @@
 }
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #d1d5ca; /* El tono verdoso suave de la imagen */
-    color: #333;
+    font-family: 'Times New Roman', Times, serif; /* Tipografía clásica tipo elegancia */
+    background-color: #d3d7cc; /* Tono verdoso suave idéntico al diseño */
+    color: #2c2c2c;
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    padding: 20px 0;
 }
 
 .main-wrapper {
     width: 100%;
-    max-width: 400px;
+    max-width: 420px;
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -25,77 +26,84 @@ body {
     text-align: center;
 }
 
-/* Header y logo */
+/* Header y Logo */
 .header {
-    margin-bottom: 40px;
-}
-
-.logo-placeholder {
-    width: 80px;
-    height: 80px;
-    border: 2px solid #555;
-    border-radius: 50% 50% 0 0;
-    margin: 0 auto 15px;
+    margin-bottom: 30px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
 
-/* Simulación visual del logo simplificado */
-.logo-placeholder::before {
-    content: "L"; /* Simbolizando el farol */
-    font-size: 30px;
-    color: #444;
+.logo-container {
+    width: 75px;
+    height: 90px;
+    margin-bottom: 12px;
+    color: #2c2c2c;
+}
+
+.logo-svg {
+    width: 100%;
+    height: 100%;
 }
 
 h1 {
-    font-size: 24px;
-    letter-spacing: 2px;
-    color: #2c2c2c;
-    margin-bottom: 5px;
+    font-size: 26px;
+    letter-spacing: 3px;
+    font-weight: 400;
+    line-height: 1.1;
+    margin-bottom: 12px;
+    color: #232323;
 }
 
 .subtitle {
-    font-size: 10px;
-    letter-spacing: 1px;
+    font-size: 9px;
+    letter-spacing: 1.5px;
     text-transform: uppercase;
-    color: #444;
+    color: #4a4a4a;
+    max-width: 280px;
+    line-height: 1.4;
 }
 
-/* Menú de navegación */
+/* Menú de Botones */
 .nav-menu {
     width: 100%;
     display: flex;
     flex-direction: column;
-    gap: 15px;
-    margin-bottom: 40px;
+    gap: 12px;
+    margin-bottom: 35px;
 }
 
 .btn {
     display: block;
     width: 100%;
-    padding: 15px;
-    background-color: #e5e3db; /* El color crema claro de los botones */
-    color: #333;
+    padding: 14px;
+    background-color: #eae7df; /* Color crema claro de las cajas */
+    color: #2c2c2c;
     text-decoration: none;
-    border: 1px solid #bfbcb3;
-    font-size: 16px;
-    transition: background-color 0.3s;
+    border: 1px solid #b8b3a5; /* Borde sutil y elegante */
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 0.5px;
+    transition: background-color 0.2s ease;
 }
 
 .btn:hover {
-    background-color: #dcd9cf;
+    background-color: #dfdcd2;
 }
 
-/* Footer social */
+/* Footer con iconos de redes sociales */
 .social-footer {
     display: flex;
-    gap: 20px;
-    font-size: 20px;
+    gap: 24px;
 }
 
 .social-footer a {
-    color: #333;
+    color: #2c2c2c;
     text-decoration: none;
+    font-size: 18px;
+    transition: opacity 0.2s;
+}
+
+.social-footer a:hover {
+    opacity: 0.7;
 }
