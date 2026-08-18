@@ -3,46 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Casa Ciriaco</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Casa Ciriaco - Menú</title>
+    <link rel="stylesheet" href="style1.css">
     <!-- FontAwesome para iconos de redes sociales -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-
-    <main class="mobile-container">
-        <!-- Encabezado con Logo y Subtítulo -->
-        <header class="profile-header">
-            <div class="logo-container">
-                <svg class="restaurant-logo" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="2">
-                    <path d="M50 15 C35 15, 30 30, 30 45 L30 75 L70 75 L70 45 C70 30, 65 15, 50 15 Z" />
-                    <line x1="50" y1="15" x2="50" y2="25" />
-                    <circle cx="50" cy="22" r="3" />
-                    <!-- Icono interno simplificado de lámpara/cubiertos -->
-                    <path d="M45 40 L55 40 L52 60 L48 60 Z" />
-                </svg>
-                <h1 class="brand-title">CASA<br>CIRIACO</h1>
+    <div class="mobile-container">
+        <!-- Cabecera -->
+        <header class="header">
+            <div class="logo-placeholder">
+                <i class="fa-solid fa-archway"></i>
+                <div class="utensils">
+                    <i class="fa-solid fa-utensils"></i>
+                </div>
             </div>
-            <p class="brand-subtitle">COCINA TRADICIONAL MADRILEÑA CON SABOR CASERO</p>
+            <h1>CASA CIRIACO</h1>
+            <p class="subtitle">TRADICIÓN Y SOLERA DESDE 19XX</p>
         </header>
 
-        <!-- Botones de Enlaces -->
-        <nav class="links-nav">
-            <a href="#" class="nav-button">Menú</a>
-            <a href="#" class="nav-button">Ubicación</a>
-            <a href="#" class="nav-button">Contacto</a>
-            <a href="#" class="nav-button">Acerca de nosotros</a>
-            <a href="#" class="nav-button">Galería</a>
-            <a href="#" class="nav-button">Opiniones y reseñas</a>
-        </nav>
+        <!-- Sección Comida y Ensaladas -->
+        <section class="menu-section">
+            <h2>COMIDA Y ENSALADAS</h2>
+            <nav class="menu-nav">
+                <a href="#" class="menu-btn">TAPAS</a>
+                <a href="#" class="menu-btn">RACIONES</a>
+                <a href="#" class="menu-btn">ENSALADAS</a>
+                <a href="#" class="menu-btn">ESPECIALIDADES</a>
+                <a href="#" class="menu-btn">POSTRES</a>
+            </nav>
+        </section>
 
-        <!-- Redes Sociales -->
-        <footer class="social-footer">
-            <a href="#" class="social-icon" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
-            <a href="#" class="social-icon" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
-            <a href="#" class="social-icon" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+        <!-- Sección Bebidas -->
+        <section class="menu-section">
+            <h2>BEBIDAS</h2>
+            <nav class="menu-nav">
+                <a href="#" class="menu-btn">BEBIDAS</a>
+                <a href="#" class="menu-btn">VINOS</a>
+            </nav>
+        </section>
+
+        <!-- Footer / Redes Sociales -->
+        <footer class="footer">
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-tripadvisor"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            </div>
         </footer>
-    </main>
-
+    </div>
 </body>
 </html>
