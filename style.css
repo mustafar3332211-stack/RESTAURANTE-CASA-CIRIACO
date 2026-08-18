@@ -1,4 +1,4 @@
-/* Limpieza básica */
+/* Reset básico y configuración general */
 * {
     margin: 0;
     padding: 0;
@@ -6,83 +6,96 @@
 }
 
 body {
-    background-color: #d8ded3; /* Color de fondo de la primera imagen */
-    font-family: 'Georgia', serif;
-    color: #4a4843;
-    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #d1d5ca; /* El tono verdoso suave de la imagen */
+    color: #333;
     display: flex;
     justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
 
 .main-wrapper {
     width: 100%;
     max-width: 400px;
-    padding: 40px 20px;
+    padding: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-/* Ajustes del Logo */
-.logo-placeholder {
-    width: 60px;
-    height: 60px;
-    border: 2px solid #4a4843;
-    border-radius: 50% 50% 0 0;
-    margin: 0 auto 20px auto;
-    position: relative;
-}
-
-/* Estilo de texto */
-h1 {
-    font-size: 1.8rem;
-    letter-spacing: 4px;
-    margin-bottom: 10px;
-    font-weight: 400;
-}
-
-.subtitle {
-    font-size: 0.65rem;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    margin-bottom: 40px;
     text-align: center;
 }
 
-/* Estilo de los botones */
+/* Header y logo */
+.header {
+    margin-bottom: 40px;
+}
+
+.logo-placeholder {
+    width: 80px;
+    height: 80px;
+    border: 2px solid #555;
+    border-radius: 50% 50% 0 0;
+    margin: 0 auto 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Simulación visual del logo simplificado */
+.logo-placeholder::before {
+    content: "L"; /* Simbolizando el farol */
+    font-size: 30px;
+    color: #444;
+}
+
+h1 {
+    font-size: 24px;
+    letter-spacing: 2px;
+    color: #2c2c2c;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    font-size: 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #444;
+}
+
+/* Menú de navegación */
 .nav-menu {
     width: 100%;
     display: flex;
     flex-direction: column;
     gap: 15px;
+    margin-bottom: 40px;
 }
 
 .btn {
     display: block;
     width: 100%;
-    padding: 16px;
-    background-color: #e3e8e0; /* Color de fondo del botón */
-    border: 1px solid #c8cdc5;
-    text-align: center;
+    padding: 15px;
+    background-color: #e5e3db; /* El color crema claro de los botones */
+    color: #333;
     text-decoration: none;
-    color: #4a4843;
-    font-size: 1rem;
-    letter-spacing: 1px;
+    border: 1px solid #bfbcb3;
+    font-size: 16px;
+    transition: background-color 0.3s;
 }
 
 .btn:hover {
-    background-color: #d2d8ce;
+    background-color: #dcd9cf;
 }
 
-/* Footer iconos */
+/* Footer social */
 .social-footer {
-    margin-top: 40px;
     display: flex;
     gap: 20px;
+    font-size: 20px;
 }
 
 .social-footer a {
-    color: #4a4843;
-    font-size: 1.2rem;
+    color: #333;
     text-decoration: none;
 }
