@@ -53,6 +53,37 @@ body {
   color: #4a4a3d;
 }
 
+/* ---- Placeholder de foto ---- */
+
+.photo-placeholder {
+  width: 100%;
+  height: 180px;
+  margin-top: 26px;
+  background-color: #b9c0aa;
+  border: 1px dashed #6b6b5a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.photo-placeholder span {
+  font-size: 13px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #4a4a3d;
+}
+
+/* Si sustituyes por una imagen real, usa esta clase */
+.location-photo {
+  width: 100%;
+  height: 180px;
+  margin-top: 26px;
+  object-fit: cover;
+  border: 1px solid #6b6b5a;
+}
+
+/* ---- Mapa ---- */
+
 .map-wrapper {
   width: 100%;
   height: 220px;
