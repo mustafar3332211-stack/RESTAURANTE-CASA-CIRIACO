@@ -3,10 +3,10 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Casa Ciriaco – Menú</title>
+<title>Lolin Café Gastrobar – Carta</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&family=EB+Garamond:wght@400;500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="menu.css">
+<link rel="stylesheet" href="menu-style.css">
 </head>
 <body>
 
@@ -14,66 +14,434 @@
 
     <a href="index.html" class="back-link" aria-label="Volver al inicio">&larr;</a>
 
-    <header class="brand">
-      <svg class="logo" viewBox="0 0 120 130" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-        <path d="M20 128 V55 A40 40 0 0 1 100 55 V128" fill="none" stroke="#6b5c46" stroke-width="1.5"/>
-        <line x1="10" y1="128" x2="110" y2="128" stroke="#6b5c46" stroke-width="1.5"/>
-        <line x1="10" y1="55" x2="30" y2="55" stroke="#6b5c46" stroke-width="1.5"/>
-        <line x1="90" y1="55" x2="110" y2="55" stroke="#6b5c46" stroke-width="1.5"/>
-        <g stroke="#6b5c46" stroke-width="1.5" fill="none">
-          <line x1="50" y1="60" x2="45" y2="118"/>
-          <line x1="47" y1="60" x2="47" y2="75"/>
-          <line x1="50" y1="60" x2="50" y2="75"/>
-          <line x1="53" y1="60" x2="53" y2="75"/>
-        </g>
-        <path d="M78 60 C83 66 83 74 78 78 L75 118" stroke="#6b5c46" stroke-width="1.5" fill="none"/>
-      </svg>
-      <h1 class="brand-name">CASA CIRIACO</h1>
-      <p class="tagline">TRADICIÓN Y SOLERA DESDE 19XX</p>
+    <header class="page-header">
+      <h1 class="page-title">Lolin Café Gastrobar</h1>
+      <p class="page-subtitle">Tapas para compartir</p>
     </header>
 
-    <section class="menu-section">
-      <h2 class="section-title">COMIDA Y ENSALADAS</h2>
-      <nav class="menu-list">
-        <a href="tapas.html" class="menu-btn">TAPAS</a>
-        <a href="raciones.html" class="menu-btn">RACIONES</a>
-        <a href="ensaladas.html" class="menu-btn">ENSALADAS</a>
-        <a href="especialidades.html" class="menu-btn">ESPECIALIDADES</a>
-        <a href="postres.html" class="menu-btn">POSTRES</a>
-      </nav>
+    <nav class="category-nav">
+      <a href="#vegetarianas">Vegetarianas</a>
+      <a href="#veganas">Veganas</a>
+      <a href="#omnivoras">Omnívoras</a>
+      <a href="#vermut">Vermut / Brunch</a>
+    </nav>
+
+    <!-- ================= TAPAS VEGETARIANAS ================= -->
+    <section class="menu-section" id="vegetarianas">
+      <h2 class="section-title">TAPAS VEGETARIANAS</h2>
+      <p class="section-note">Para compartir</p>
+      <div class="item-list">
+
+        <div class="item-row">
+          <span class="item-info">
+            <span class="item-name">Almogrote Canario</span>
+            <span class="item-desc">Queso y mojo picón, con tostadas (opción sin gluten)</span>
+          </span>
+          <span class="item-price">8,50 €</span>
+        </div>
+
+        <div class="item-row">
+          <span class="item-info">
+            <span class="item-name">Almogrote Canario con Pistachos</span>
+            <span class="item-desc">Queso, mojo picón y pistachos, con tostadas (opción sin gluten)</span>
+          </span>
+          <span class="item-price">9,00 €</span>
+        </div>
+
+        <div class="item-row">
+          <span class="item-info">
+            <span class="item-name">Ensalada Mediterránea</span>
+            <span class="item-desc">Con 3 humus (normal, olivas negras, guacamole), mousse de berenjenas y queso de cabra (opción sin gluten)</span>
+          </span>
+          <span class="item-price">16,00 €</span>
+        </div>
+
+      </div>
     </section>
 
-    <section class="menu-section">
-      <h2 class="section-title">BEBIDAS</h2>
-      <nav class="menu-list">
-        <a href="bebidas.html" class="menu-btn">BEBIDAS</a>
-        <a href="vinos.html" class="menu-btn">VINOS</a>
-      </nav>
+    <!-- ================= TAPAS VEGANAS ================= -->
+    <section class="menu-section" id="veganas">
+      <h2 class="section-title">TAPAS VEGANAS</h2>
+      <p class="section-note">Para compartir</p>
+      <div class="item-list">
+
+        <div class="item-row">
+          <span class="item-info">
+            <span class="item-name">No-Es-Ensalada</span>
+            <span class="item-desc">Guacamole, naranja, tomate, mango, edamame, semillas de calabaza</span>
+          </span>
+          <span class="item-price">12,00 €</span>
+        </div>
+
+        <div class="item-row">
+          <span class="item-info">
+            <span class="item-name">Olivas & Friends</span>
+            <span class="item-desc">Mix de olivas verdes Campo Real, arbequinas y gordal</span>
+          </span>
+          <span class="item-price">4,50 €</span>
+        </div>
+
+        <div class="item-row">
+          <span class="item-info">
+            <span class="item-name">Heura con Papas Arrugadas</span>
+            <span class="item-desc">Con mojo picón y mermelada (sin gluten)</span>
+          </span>
+          <span class="item-price">13,50 €</span>
+        </div>
+
+        <div class="item-row">
+          <span class="item-info">
+            <span class="item-name">Tomates con Jengibre Rosa</span>
+            <span class="item-desc">Con vinagre Pedro Ximénez (sin gluten)</span>
+          </span>
+          <span class="item-price">6,00 €</span>
+        </div>
+
+        <div class="item-row">
+          <span class="item-info">
+            <span class="item-name">Dúo de Hummus</span>
+            <span class="item-desc">El original y con olivas negras, con tostadas y tortitas mejicanas (opción sin gluten)</span>
+          </span>
+          <span class="item-price">8,00 €</span>
+        </div>
+
+        <div class="item-row">
+          <span class="item-info">
+            <span class="item-name">Mousse de Berenjenas</span>
+            <span class="item-desc">Con base de tomate, pepinillo, alcaparras y bicho, con tostadas (opción sin gluten)</span>
+          </span>
+          <span class="item-price">9,50 €</span>
+        </div>
+
+        <div class="item-row">
+          <span class="item-info">
+            <span class="item-name">Edamame</span>
+            <span class="item-desc">Con zumo de lima y semillas de sésamo (sin gluten)</span>
+          </span>
+          <span class="item-price">4,50 €</span>
+        </div>
+
+        <div class="item-row">
+          <span class="item-info">
+            <span class="item-name">Papas Arrugás</span>
+            <span class="item-desc">Con mojo picón (sin gluten)</span>
+          </span>
+          <span class="item-price">6,50 €</span>
+        </div>
+
+        <div class="item-row">
+          <span class="item-info">
+            <span class="item-name">Hummus de Ajo Negro</span>
+            <span class="item-desc">Con tostadas (opción sin gluten)</span>
+          </span>
+          <span class="item-price">9,50 €</span>
+        </div>
+
+        <div class="item-row">
+          <span class="item-info">
+            <span class="item-name">Hummus Guacamole</span>
+            <span class="item-desc">Picante, con tostadas y tortitas mejicanas (opción sin gluten)</span>
+          </span>
+          <span class="item-price">9,00 €</span>
+        </div>
+
+        <div class="item-row">
+          <span class="item-info">
+            <span class="item-name">Ropa Vieja de Jackfruit</span>
+            <span class="item-desc">Guisado estilo cubano, con arroz basmati (sin gluten)</span>
+          </span>
+          <span class="item-price">16,00 €</span>
+        </div>
+
+        <div class="item-row">
+          <span class="item-info">
+            <span class="item-name">Ensalada Vegana</span>
+            <span class="item-desc">Con 4 humus (normal, olivas negras, ajo negro, guacamole) y mousse de berenjenas (opción sin gluten)</span>
+          </span>
+          <span class="item-price">18,00 €</span>
+        </div>
+
+        <div class="item-row">
+          <span class="item-info">
+            <span class="item-name">Fajitas de Mechada</span>
+            <span class="item-desc">Estilo pulled beef, guacamole, picada de cebolla y tomate, cebolla frita, patatas paja</span>
+          </span>
+          <span class="item-price">14,00 €</span>
+        </div>
+
+        <div class="item-row">
+          <span class="item-info">
+            <span class="item-name">Almogrote Vegan</span>
+            <span class="item-desc">Queso vegano y mojo picón, con tostadas (opción sin gluten)</span>
+          </span>
+          <span class="item-price">9,50 €</span>
+        </div>
+
+        <div class="item-row">
+          <span class="item-info">
+            <span class="item-name">Mazamorra</span>
+            <span class="item-desc">Untable de almendras, pan y ajo, con tostadas</span>
+          </span>
+          <span class="item-price">9,00 €</span>
+        </div>
+
+      </div>
     </section>
 
-    <div class="social-icons">
-      <a href="#" aria-label="TripAdvisor" class="social-icon">
-        <svg viewBox="0 0 24 24" fill="none" stroke="#3f3a30" stroke-width="1.4">
-          <circle cx="7.5" cy="13.5" r="3.5"/>
-          <circle cx="16.5" cy="13.5" r="3.5"/>
-          <circle cx="7.5" cy="13.5" r="1.2" fill="#3f3a30" stroke="none"/>
-          <circle cx="16.5" cy="13.5" r="1.2" fill="#3f3a30" stroke="none"/>
-          <path d="M2 9.5c1.8-1 3.8-1.5 5.5-1.5s3.7.5 5.5 1.5"/>
-          <path d="M12 9.5c1.8-1 3.8-1.5 5.5-1.5s3.7.5 5.5 1.5"/>
-          <path d="M9 6.5 12 9l3-2.5"/>
-        </svg>
-      </a>
-      <a href="#" aria-label="Instagram" class="social-icon">
-        <svg viewBox="0 0 24 24" fill="none" stroke="#3f3a30" stroke-width="1.4">
-          <rect x="3" y="3" width="18" height="18" rx="5"/>
-          <circle cx="12" cy="12" r="4"/>
-          <circle cx="17.2" cy="6.8" r="0.6" fill="#3f3a30" stroke="none"/>
-        </svg>
-      </a>
-      <a href="#" aria-label="Facebook" class="social-icon">
-        <svg viewBox="0 0 24 24"><path fill="#3f3a30" d="M22 12a10 10 0 1 0-11.6 9.9v-7H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.4h-1.2c-1.2 0-1.6.8-1.6 1.6V12h2.8l-.4 2.9h-2.4v7A10 10 0 0 0 22 12z"/></svg>
-      </a>
-    </div>
+    <!-- ================= TAPAS OMNÍVORAS ================= -->
+    <section class="menu-section" id="omnivoras">
+      <h2 class="section-title">TAPAS OMNÍVORAS</h2>
+      <p class="section-note">Con carne y productos animales, para compartir</p>
+      <div class="item-list">
+
+        <div class="item-row">
+          <span class="item-info">
+            <span class="item-name">Tartar de Salmón</span>
+          </span>
+          <span class="item-price">12,00 €</span>
+        </div>
+
+        <div class="item-row">
+          <span class="item-info">
+            <span class="item-name">Tartar de Langostinos</span>
+            <span class="item-desc">Con aceite de sésamo y lima, tostadas (opción sin gluten)</span>
+          </span>
+          <span class="item-price">12,00 €</span>
+        </div>
+
+        <div class="item-row">
+          <span class="item-info">
+            <span class="item-name">Ceviche de Berberechos</span>
+            <span class="item-desc">Con cítricos y sriracha (opción sin gluten)</span>
+          </span>
+          <span class="item-price">15,50 €</span>
+        </div>
+
+        <div class="item-row">
+          <span class="item-info">
+            <span class="item-name">Carpaccio de Calabacín</span>
+            <span class="item-desc">Con queso parmesano, jamón ibérico y almendra picada (opción sin gluten)</span>
+          </span>
+          <span class="item-price">9,00 €</span>
+        </div>
+
+        <div class="item-row">
+          <span class="item-info">
+            <span class="item-name">Carpaccio de Wagyu</span>
+            <span class="item-desc">Vaca japonesa, con foie gras y tostadas (opción sin gluten)</span>
+          </span>
+          <span class="item-price">14,00 €</span>
+        </div>
+
+        <div class="item-row">
+          <span class="item-info">
+            <span class="item-name">Ensalada de Naranja</span>
+            <span class="item-desc">Con queso de cabra, jamón ibérico y aceite de albahaca (sin gluten)</span>
+          </span>
+          <span class="item-price">13,00 €</span>
+        </div>
+
+        <div class="item-row">
+          <span class="item-info">
+            <span class="item-name">Secreto Ibérico con Papas Arrugás</span>
+            <span class="item-desc">Y mojo picón (sin gluten)</span>
+          </span>
+          <span class="item-price">11,50 €</span>
+        </div>
+
+        <div class="item-row">
+          <span class="item-info">
+            <span class="item-name">Hamburguesa Black Angus</span>
+            <span class="item-desc">Completa</span>
+          </span>
+          <span class="item-price">14,50 €</span>
+        </div>
+
+        <div class="item-row">
+          <span class="item-info">
+            <span class="item-name">Mousse de Morcilla</span>
+            <span class="item-desc">Con manzana caramelizada y queso de cabra, con tostadas (opción sin gluten)</span>
+          </span>
+          <span class="item-price">9,50 €</span>
+        </div>
+
+        <div class="item-row">
+          <span class="item-info">
+            <span class="item-name">Enrollado de Fez</span>
+            <span class="item-desc">Pollo, cebolla caramelizada, almendras, pasas y menta (se puede servir sin gluten)</span>
+          </span>
+          <span class="item-price">16,00 €</span>
+        </div>
+
+        <div class="item-row">
+          <span class="item-info">
+            <span class="item-name">Huevos Rotos con Gulas y Langostinos</span>
+            <span class="item-desc">Algo picante (opción sin gluten)</span>
+          </span>
+          <span class="item-price">16,00 €</span>
+        </div>
+
+        <div class="item-row">
+          <span class="item-info">
+            <span class="item-name">Huevos con Foie</span>
+            <span class="item-desc">Opción sin gluten</span>
+          </span>
+          <span class="item-price">15,50 €</span>
+        </div>
+
+        <div class="item-row">
+          <span class="item-info">
+            <span class="item-name">Peque Burguer (Kids)</span>
+            <span class="item-desc">Solo niñas/niños. De ternera, con tomate, lechuga, queso y patatas paja</span>
+          </span>
+          <span class="item-price">7,00 €</span>
+        </div>
+
+        <div class="item-row">
+          <span class="item-info">
+            <span class="item-name">Pata de Pulpo</span>
+            <span class="item-desc">Con cama de boniato (sin gluten)</span>
+          </span>
+          <span class="item-price">22,00 €</span>
+        </div>
+
+        <div class="item-row">
+          <span class="item-info">
+            <span class="item-name">Chupachups de Pollo</span>
+            <span class="item-desc">Crujiente, sin gluten, con 3 salsas</span>
+          </span>
+          <span class="item-price">14,00 €</span>
+        </div>
+
+        <div class="item-row">
+          <span class="item-info">
+            <span class="item-name">Berberechos</span>
+            <span class="item-desc">De lata</span>
+          </span>
+          <span class="item-price">8,50 €</span>
+        </div>
+
+        <div class="item-row">
+          <span class="item-info">
+            <span class="item-name">Dados Black Angus</span>
+            <span class="item-desc">A la reducción de salsa de soja con jamón crujiente</span>
+          </span>
+          <span class="item-price">18,00 €</span>
+        </div>
+
+        <div class="item-row">
+          <span class="item-info">
+            <span class="item-name">Tartar de Fuet</span>
+            <span class="item-desc">Con tomate, cebolla roja, alcaparras, picante</span>
+          </span>
+          <span class="item-price">9,00 €</span>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ================= VERMUT / BRUNCH ================= -->
+    <section class="menu-section" id="vermut">
+      <h2 class="section-title">VERMUT / BRUNCH</h2>
+      <p class="section-note">Miércoles a domingo, de 11:00 a 13:00 h</p>
+      <div class="item-list">
+
+        <div class="item-row">
+          <span class="item-info">
+            <span class="item-name">Torrada de Mousse de Morcilla</span>
+            <span class="item-desc">Con manzana caramelizada y queso de cabra</span>
+          </span>
+          <span class="item-price">4,75 €</span>
+        </div>
+
+        <div class="item-row">
+          <span class="item-info">
+            <span class="item-name">Edamame</span>
+            <span class="item-desc">Con zumo de lima y semillas de sésamo (sin gluten)</span>
+          </span>
+          <span class="item-price">4,50 €</span>
+        </div>
+
+        <div class="item-row">
+          <span class="item-info">
+            <span class="item-name">Papitas Arrugás</span>
+          </span>
+          <span class="item-price">3,75 €</span>
+        </div>
+
+        <div class="item-row">
+          <span class="item-info">
+            <span class="item-name">Olivones & Friends</span>
+            <span class="item-desc">Mix de olivas verdes Campo Real, arbequinas y gordal</span>
+          </span>
+          <span class="item-price">4,50 €</span>
+        </div>
+
+        <div class="item-row">
+          <span class="item-info">
+            <span class="item-name">Petit Almogrote Canario</span>
+            <span class="item-desc">Queso y mojo picón (opción sin gluten)</span>
+          </span>
+          <span class="item-price">4,50 €</span>
+        </div>
+
+        <div class="item-row">
+          <span class="item-info">
+            <span class="item-name">Fajitas de "Carne Mechada"</span>
+            <span class="item-desc">Estilo pulled beef, guacamole, picada de cebolla y tomate, cebolla frita, patatas paja</span>
+          </span>
+          <span class="item-price">13,00 €</span>
+        </div>
+
+        <div class="item-row">
+          <span class="item-info">
+            <span class="item-name">Tomatitos con Jengibre Rosa</span>
+          </span>
+          <span class="item-price">3,50 €</span>
+        </div>
+
+        <div class="item-row">
+          <span class="item-info">
+            <span class="item-name">Trío de Hummus</span>
+            <span class="item-desc">Ajo negro, guacamole y olivas negras (opción sin gluten)</span>
+          </span>
+          <span class="item-price">8,50 €</span>
+        </div>
+
+        <div class="item-row">
+          <span class="item-info">
+            <span class="item-name">Petit Berenjena</span>
+            <span class="item-desc">Mousse de berenjena (opción sin gluten)</span>
+          </span>
+          <span class="item-price">4,75 €</span>
+        </div>
+
+        <div class="item-row">
+          <span class="item-info">
+            <span class="item-name">Tostada de Jamón</span>
+            <span class="item-desc">Con tomate y aceite de oliva virgen</span>
+          </span>
+          <span class="item-price">7,00 €</span>
+        </div>
+
+        <div class="item-row">
+          <span class="item-info">
+            <span class="item-name">Tostada de Huevos</span>
+            <span class="item-desc">Con tomate y aguacate</span>
+          </span>
+          <span class="item-price">8,50 €</span>
+        </div>
+
+        <div class="item-row">
+          <span class="item-info">
+            <span class="item-name">Tarta de Naranja</span>
+            <span class="item-desc">Y chocolate</span>
+          </span>
+          <span class="item-price">7,00 €</span>
+        </div>
+
+      </div>
+    </section>
 
   </div>
 
